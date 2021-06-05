@@ -2,8 +2,6 @@
 package intro;
 
 // 2 - Referência as bibliotecas
-
-
 import java.util.Scanner;
 
 // 3 - Classe
@@ -59,8 +57,6 @@ public class Medidas {
                 System.out.println("Você escolheu outro valor que não tem uma ação associada");
                 break;
         }
-
-
     }
 
     public static void ifSimples(){
@@ -79,7 +75,6 @@ public class Medidas {
         }
     }
 
-
     public static void calcularAreaModoCurto(){
         System.out.println("Cálculo de Areas Modo Curto");
 
@@ -92,7 +87,6 @@ public class Medidas {
     }
 
     public static void calcularAreaModoExtenso(){
-
         System.out.println("Cálculo de Areas Modo Extenso");
 
         // Calculo de área - Exemplo: o tamanho do tapete ou do piso
@@ -107,8 +101,8 @@ public class Medidas {
         System.out.println("Para a largura de " + largura + "m e o comprimento de "
                 + comprimento + "m a área é de " + resultado + "m²");
     }
-    public static void contarAteDez(){
 
+    public static void contarAteDez(){
         // Loops ou Repetições
         // for = repetição incondicional
         System.out.println("Contagem Crescente");
