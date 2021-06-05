@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'obr.com.fiuza'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
