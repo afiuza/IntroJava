@@ -2,6 +2,8 @@
 package intro;
 
 // 2 - Referência as bibliotecas
+
+
 import java.util.Scanner;
 
 // 3 - Classe
@@ -27,29 +29,39 @@ public class Medidas {
 
         //String opcao = "curto";
 
-        switch (opcao) {
-            case "c", "C" -> {
+        switch (opcao){
+            case "c":
+            case "C":
                 System.out.println("Você escolheu executar o método calcularAreaModoCurto");
                 calcularAreaModoCurto();
-            }
-            case "d", "D" -> {
+                break;
+            case "d":
+            case "D":
                 System.out.println("Você escolheu executar o método contarAteDez");
                 contarAteDez();
-            }
-            case "e", "E" -> {
+                break;
+            case "e":
+            case "E":
                 System.out.println("Você escolheu executar o método calcularAreaModoExtenso");
                 calcularAreaModoExtenso();
-            }
-            case "i", "I" -> {
+                break;
+            case "i":
+            case "I":
                 System.out.println("Você escolheu executar o método ifSimples");
                 ifSimples();
-            }
-            case "r", "R" -> {
+                break;
+            case "r":
+            case "R":
                 System.out.println("Você escolheu executar o método contagemRegressiva");
                 contagemRegressiva();
-            }
-            default -> System.out.println("Você escolheu outro valor que não tem uma ação associada");
+                break;
+
+            default:
+                System.out.println("Você escolheu outro valor que não tem uma ação associada");
+                break;
         }
+
+
     }
 
     public static void ifSimples(){
@@ -58,8 +70,16 @@ public class Medidas {
         // if = se
         // else = senão
 
-        calcularAreaModoCurto();
-     }
+        String modo = "curto";
+
+        if (modo == "curto"){
+            calcularAreaModoCurto();
+        }
+        else {
+            calcularAreaModoExtenso();
+        }
+    }
+
 
     public static void calcularAreaModoCurto(){
         System.out.println("Cálculo de Areas Modo Curto");
