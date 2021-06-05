@@ -58,8 +58,6 @@ public class Medidas {
         // if = se
         // else = senão
 
-        String modo = "curto";
-
         calcularAreaModoCurto();
      }
 
