@@ -55,7 +55,6 @@ public class Medidas {
                 System.out.println("Você escolheu executar o método contagemRegressiva");
                 contagemRegressiva();
                 break;
-
             default:
                 System.out.println("Você escolheu outro valor que não tem uma ação associada");
                 break;
